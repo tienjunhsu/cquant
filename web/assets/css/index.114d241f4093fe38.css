@@ -1,0 +1,353 @@
+.sp-nearby1 {
+	background-image: url(//static.ricequant.com/assets/img/sprite/sp-index.png);
+	background-position: 0px 0px;
+	width: 320px;
+	height: 125px
+}
+
+.sp-nearby2 {
+	background-image: url(//static.ricequant.com/assets/img/sprite/sp-index.png);
+	background-position: 0px -125px;
+	width: 320px;
+	height: 125px
+}
+
+#page-index {
+	color: #fff
+}
+
+#page-index header {
+	background: none
+}
+
+#page-index #entrance {
+	background: url(//static.ricequant.com/assets/img/index-bg.png) no-repeat bottom;
+	background-size: contain
+}
+
+#page-index #entrance .slide-down {
+	position: absolute;
+	left: 50%;
+	margin-left: -19px;
+	bottom: 4%;
+	color: #69f;
+	font-size: 40px;
+	font-size: 0.4rem
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),screen and (min--moz-device-pixel-ratio: 2),screen and (-o-min-device-pixel-ratio: 2/1),screen and (min-device-pixel-ratio: 2) {
+	#page-index #entrance {
+		background: url(//static.ricequant.com/assets/img/index-bg-retina.png) no-repeat bottom;
+		background-size: contain
+	}
+}
+
+#page-index .entrance-content {
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -380px;
+	margin-left: -500px
+}
+
+#page-index .entrance-text {
+	text-align: center
+}
+
+#page-index .entrance-text h2 {
+	font-weight: normal;
+	color: #333;
+	font-size: 50px;
+	font-size: 0.5rem;
+	margin-top: 25px
+}
+
+#page-index .entrance-text p {
+	font-size: 32px;
+	font-size: 0.32rem;
+	color: #69f
+}
+
+#page-index .entrance-text div {
+	margin-top: -10px
+}
+
+#page-index .entrance-text span {
+	font-size: 16px;
+	font-size: 0.16rem;
+	color: #999;
+	padding: 0 5px
+}
+
+#page-index .entrance-text .sep {
+	font-size: 50px;
+	font-size: 0.5rem;
+	color: #69f;
+	position: relative;
+	top: -3px
+}
+
+#page-index .entrance-menu-wrapper {
+	position: relative;
+	height: 320px;
+	width: 1000px;
+	margin: 0 auto
+}
+
+#page-index .entrance-menu {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 5px
+}
+
+#page-index .entrance-item {
+	position: relative;
+	width: 320px;
+	margin: 0 5px
+}
+
+#page-index .entrance-item a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #2d2f33;
+	color: #69f;
+	font-size: 18px;
+	font-size: 0.18rem
+}
+
+#page-index .entrance-item .slide-trigger {
+	position: absolute;
+	top: -75px;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	line-height: 70px;
+	font-size: 22px;
+	font-size: 0.22rem;
+	border-bottom: 5px solid #000
+}
+
+#page-index .entrance-item .slide-sheet {
+	display: none;
+	position: absolute;
+	top: -80px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #000;
+	color: #fff
+}
+
+#page-index .entrance-item .slide-sheet ul {
+	padding: 15px 25px 20px;
+	list-style-type: circle;
+	margin-left: 15px
+}
+
+#page-index .entrance-item .rqicon {
+	font-size: 44px;
+	font-size: 0.44rem;
+	padding-right: 5px
+}
+
+#page-index .entrance-item .sp-icon {
+	position: relative;
+	left: 45px;
+	vertical-align: middle
+}
+
+#page-index .entrance-item .nearby {
+	position: absolute;
+	z-index: 100;
+	top: -75px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 125px;
+	width: 320px
+}
+
+#page-index .entrance-item .nearby-text {
+	position: absolute;
+	z-index: 101;
+	top: -75px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-size: 18px;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 125px
+}
+
+#page-index .first-screen {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+#page-index .second-screen {
+	position: absolute;
+	top: 100%;
+	left: 0
+}
+
+#page-index #about-ricequant {
+	height: 440px;
+	padding: 80px 0;
+	background-color: #333
+}
+
+#page-index #about-ricequant .title-box {
+	height: 100%;
+	padding: 50px 0;
+	border-right: solid 1px #fff
+}
+
+#page-index #about-ricequant .title-box p {
+	font-size: 20px;
+	font-size: 0.2rem;
+	color: #fff
+}
+
+#page-index #about-ricequant .title-box span {
+	color: #69f
+}
+
+#page-index #about-ricequant h2 {
+	font-size: 40px;
+	font-size: 0.4rem
+}
+
+#page-index #about-ricequant .description {
+	display: table;
+	height: 100%
+}
+
+#page-index #about-ricequant .description p {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 30px;
+	padding: 0 10%
+}
+
+#page-index #whats-investing {
+	position: relative;
+	padding-top: 90px;
+	background: #69f;
+	text-align: center
+}
+
+#page-index #whats-investing .wrapper {
+	margin: 95px 0
+}
+
+#page-index #whats-investing h2 {
+	margin: 0;
+	font-size: 34px;
+	font-size: 0.34rem;
+	font-weight: normal
+}
+
+#page-index #whats-investing h3 {
+	margin: 10px 0 0;
+	font-size: 18px;
+	font-size: 0.18rem;
+	font-weight: normal
+}
+
+#page-index #whats-investing .rqicon {
+	font-size: 80px;
+	font-size: 0.8rem
+}
+
+#page-index #whats-investing p {
+	color: #fff
+}
+
+#page-index #whats-investing .learn-more {
+	display: block;
+	margin: 0 auto;
+	height: 38px;
+	line-height: 38px;
+	width: 100px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	color: #fff
+}
+
+#page-index #whats-investing .more-info {
+	display: inline-block;
+	padding-bottom: 30px;
+	color: #fff;
+	font-size: 25px;
+	font-size: 0.25rem;
+	margin-top: 10px;
+	cursor: pointer
+}
+
+#page-index #whats-investing .arrow-down {
+	position: absolute;
+	height: 40px;
+	width: 80px;
+	border-radius: 0 0 40px 40px;
+	background: #69f;
+	bottom: -39px;
+	left: 50%;
+	margin-left: -40px
+}
+
+#page-index #whats-investing .arrow-down .rqicon {
+	transition: all 0.5s ease-in-out 0.4s;
+	display: inline-block;
+	font-size: 24px;
+	font-size: 0.24rem;
+	cursor: pointer
+}
+
+#page-index #whats-investing .slide-box {
+	transition: all 0.5s ease-in-out;
+	height: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+#page-index #whats-investing .slide-box p {
+	margin: 0 auto;
+	line-height: 30px;
+	max-width: 800px
+}
+
+#page-index #whats-investing.active .slide-box {
+	height: 120px;
+	padding: 10px 0 60px
+}
+
+#page-index #whats-investing.active .arrow-down .rqicon {
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-ms-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+#page-index #whats-investing.active .more-info {
+	visibility: hidden
+}
+
+#page-index .second-screen footer {
+	display: block;
+	padding-top: 70px
+}
+
+#page-index footer {
+	display: none
+}

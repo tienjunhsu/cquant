@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.ricequant.com/ -->
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="assets\img\favicon.ico" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>CQuant| CQuant量化平台</title>
+  <link href="assets\css\frame.0eb6ec70d79cf653.css" rel="stylesheet" />
+  <!--[if lt IE 9]><script src="https://static.ricequant.com/assets/lib/html5shiv/html5shiv.js"></script><![endif]-->
+  <link href="assets\css\index.114d241f4093fe38.css" rel="stylesheet" />
+  <style type="text/css">#yddContainer {
+    display: block;
+    font-family: Microsoft YaHei;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -4px;
+    left: -4px;
+    font-size: 12px;
+    border: 1px solid
+}
+
+#yddTop {
+    display: block;
+    height: 22px
+}
+
+#yddTopBorderlr {
+    display: block;
+    position: static;
+    height: 17px;
+    padding: 2px 28px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #5079bb;
+    font-weight: bold;
+    border-style: none solid;
+    border-width: 1px
+}
+
+#yddTopBorderlr .ydd-sp {
+    position: absolute;
+    top: 2px;
+    height: 0;
+    overflow: hidden
+}
+
+.ydd-icon {
+    left: 5px;
+    width: 17px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 17px;
+    background-position: -16px -44px
+}
+
+.ydd-close {
+    right: 5px;
+    width: 16px;
+    padding-top: 16px;
+    background-position: left -44px
+}
+
+#yddKeyTitle {
+    float: left;
+    text-decoration: none
+}
+
+#yddMiddle {
+    display: block;
+    margin-bottom: 10px
+}
+
+.ydd-tabs {
+    display: block;
+    margin: 5px 0;
+    padding: 0 5px;
+    height: 18px;
+    border-bottom: 1px solid
+}
+
+.ydd-tab {
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0 5px -1px 0;
+    padding: 0 4px;
+    line-height: 18px;
+    border: 1px solid;
+    border-bottom: none
+}
+
+.ydd-trans-container {
+    display: block;
+    line-height: 160%
+}
+
+.ydd-trans-container a {
+    text-decoration: none;
+}
+
+#yddBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    background-position: left -22px
+}
+
+.ydd-padding010 {
+    padding: 0 10px
+}
+
+#yddWrapper {
+    color: #252525;
+    z-index: 10001;
+    background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+}
+
+#yddContainer {
+    background: #fff;
+    border-color: #4b7598
+}
+
+#yddTopBorderlr {
+    border-color: #f0f8fc
+}
+
+#yddWrapper .ydd-sp {
+    background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)
+}
+
+#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited {
+    color: #50799b
+}
+
+#yddWrapper .ydd-tabs {
+    color: #959595
+}
+
+.ydd-tabs,.ydd-tab {
+    background: #fff;
+    border-color: #d5e7f3
+}
+
+#yddBottom {
+    color: #363636
+}
+
+#yddWrapper {
+    min-width: 250px;
+    max-width: 400px;
+}</style>
+  <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style>
+  <link href="assets\css\jobs.a0248fde97885012.css" rel="stylesheet" />
+ </head>
+ <body id="page-index" style="background-color: rgb(255, 255, 255);">
+  <h1>RiceQuant</h1>
+  <header class="row">
+   <div class="col-10 col-offset-1">
+    <div id="js-user-status-box"> 
+     <div class="js-login-box login-box fr">
+      <a href="https://www.ricequant.com/login" class="login-btn"><i class="rqicon"></i>登录</a> 
+      <a href="javascript:void(0)" class="js-tooltip-trigger-register register-btn rqicon"></a>
+     </div> 
+    </div>
+    <nav class="fr">
+     <ul>
+      <li class="nav-item"><a href="https://www.ricequant.com/community" data-nopjax="true">社区</a></li>
+      <li class="nav-item"><a href="https://www.ricequant.com/algorithms">我的策略</a></li>
+      <li class="nav-item js-dropdown-help dropdown"><a class="help-dropdown js-dropdown-trigger" href="javascript:void(0)">帮助<i class="rqicon"></i></a>
+       <ul class="js-dropdown-sheet dropdown-sheet" style="width: 120px; top: 30px; left: -44px; display: none;">
+        <!--<li><a href="/faq">常见问答</a></li>-->
+        <li><a href="https://www.ricequant.com/api">帮助 &amp; API文档</a></li>
+        <li><a href="mailto:public@ricequant.com?subject=[Feedback]">反馈</a></li>
+       </ul></li>
+     </ul>
+    </nav>
+    <a href="CQuant.html"><img id="logo" src="assets\img\logo.eafb1e33c8652daa.png" height="40" width="150" alt="logo" /></a>
+   </div>
+  </header>
+  <main class="row" style="display: block;">
+   <div id="js-page-title" class="hidden">
+    RiceQuant量化平台
+   </div>
+   <section id="entrance" class="first-screen row">
+    <div class="entrance-content">
+     <div class="row entrance-text">
+      <h2>RICEQUANT</h2>
+      <p>一个为你量身打造的量化策略平台</p>
+      <div>
+       <span>灵感</span> 
+       <span class="sep">.</span> 
+       <span>策略</span> 
+       <span class="sep">.</span> 
+       <span>代码</span> 
+       <span class="sep">.</span> 
+       <span>交易</span>
+      </div>
+     </div>
+     <div class="js-slide-wrapper entrance-menu-wrapper">
+      <div class="entrance-menu cf">
+       <div class="entrance-item fl">
+        <i class="js-nearby nearby sp-icon sp-nearby1"></i>
+        <div class="js-nearby-text nearby-text hidden">
+         敬请期待...
+        </div>
+        <a href="javascript:void(0)" data-index="0" class="js-slide-trigger slide-trigger"><i class="rqicon"></i> <span>策略研究</span> <i class="sp-icon sp-black-arrow-up"></i></a>
+        <div class="js-slide-sheet slide-sheet" style="display: block; height: 0px;">
+         <p>敬请期待</p>
+        </div>
+        <a href="javascript:void(0)">预约Beta试用</a>
+       </div>
+       <div class="entrance-item fl">
+        <a href="javascript:void(0)" data-index="1" class="js-slide-trigger slide-trigger"><i class="rqicon"></i> <span>历史回测</span> <i class="sp-icon sp-black-arrow-up"></i></a>
+        <div class="js-slide-sheet slide-sheet" style="display: block; height: 0px;">
+         <ul>
+          <li>强大的量化运算 API，解决繁琐的数据处理和数学建模</li>
+          <li>深入浅出的模板策略和帮助文档，快速轻松搭建策略</li>
+          <li>精准的 10 年海量数据回测，及时验证和优化投资策略</li>
+         </ul>
+        </div>
+        <a href="https://www.ricequant.com/algorithms">编写一个算法</a>
+       </div>
+       <div class="entrance-item fl">
+        <i class="js-nearby nearby sp-icon sp-nearby2"></i>
+        <div class="js-nearby-text nearby-text hidden">
+         敬请期待...
+        </div>
+        <a href="javascript:void(0)" data-index="2" class="js-slide-trigger slide-trigger"><i class="rqicon"></i> <span>实盘交易</span> <i class="sp-icon sp-black-arrow-up"></i></a>
+        <div class="js-slide-sheet slide-sheet" style="display: block; height: 0px;">
+         <p>敬请期待</p>
+        </div>
+        <a href="javascript:void(0)">开始实盘交易的旅程</a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <a href="javascript:void(0)" class="rqicon js-slide-down slide-down" data-scroll="#about-ricequant"></a>
+   </section>
+   <section class="second-screen">
+    <div id="about-ricequant" class="row">
+     <div class="col-3 title-box">
+      <div class="col-9 col-offset-3">
+       <h2>RiceQuant</h2>
+       <p>你自己的 <span>量化交易</span> 平台</p>
+      </div>
+     </div>
+     <div class="col-9 description">
+      <p>RiceQuant 米筐科技致力于打造亚太区最出色的量化交易平台，在我们的平台上，您可以使用我们提供高效的工具和准确的数据去构造您的策略，并进行回测以及优化，而无需担忧基础架构及数据质量问题，即将加入实时模拟 ( Paper Trading ) 和实盘交易。我们旨在降低量化交易中的高门槛，使得更多人可以参与进这智慧及资本的角力中。我们将汇集最聪明的个人交易员、研究员、中小基金及准备进入量化世界的才智们，你们可以在此发挥你们的奇思妙想去创造智慧的财富。同时，我们还会提供开放的用户社区供大家研讨、分享及思想碰撞。</p>
+     </div>
+    </div>
+    <div id="whats-investing" class="js-whats-investing">
+     <h2>量化交易是什么？</h2>
+     <div class="wrapper row">
+      <ul class="col-10 col-offset-1">
+       <li class="col-3"><i class="rqicon"></i><h3>更专注于寻找新灵感</h3><p>我们帮您节省掉手动计算的时间</p></li>
+       <li class="col-3"><i class="rqicon"></i><h3>投入资金前做好各种测试</h3><p>使用真金白银前做好诊断</p></li>
+       <li class="col-3"><i class="rqicon"></i><h3>基于数据用理性决定</h3><p>不让情绪影响您的决断</p></li>
+       <li class="col-3"><i class="rqicon"></i><h3>自动为您的投资护航</h3><p>自动化运算您的策略</p></li>
+      </ul>
+     </div>
+     <a class="js-learn-more learn-more" href="javascript:void(0)">了解更多</a>
+     <p class="js-learn-more more-info">...</p>
+     <div class="arrow-down">
+      <i class="js-learn-more rqicon"></i>
+     </div>
+     <div class="slide-box">
+      <p>量化交易是利用大量金融数据和数学模型去实现投资理念、投资策略的方法。长久以来，量化策略交易系统都是华尔街大投行基金砸重金制造的秘密武器，而今天借助于Ricequant的平台，您将轻松获得这一强大杀器。在Ricequant的平台上编写测试量化策略，您可以随心所欲的调用庞大的金融数据库和数学模型，减少冲动投资的人为错误，而强大的回测功能可以让您在真金白银的实战前模拟测试，避免为错误的策略付出昂贵的代价。</p>
+     </div>
+    </div>
+    <footer class="row">
+     <div class="row">
+      <ul class="col-8 col-offset-2 col-hg-6 col-hg-offset-3">
+       <li class="col-3"><h4>关于RiceQuant</h4>
+        <ul class="sub-list">
+         <li><a href="https://www.ricequant.com/about">关于</a></li>
+         <li><a href="https://www.ricequant.com/jobs">招贤纳士</a></li>
+        </ul></li>
+       <li class="col-3"><h4>声明</h4>
+        <ul class="sub-list">
+         <li><span>用户条款</span></li>
+         <li><span>隐私</span></li>
+        </ul></li>
+       <li class="col-3"><h4>技术支持</h4>
+        <ul class="sub-list">
+         <li><span>常见问答</span></li>
+         <li><a href="https://www.ricequant.com/api">帮助 &amp; API 文档</a></li>
+         <li><a href="mailto:public@ricequant.com">联系我们</a></li>
+         <li><span>安全</span></li>
+        </ul></li>
+       <li class="col-3"><h4>关注我们</h4>
+        <ul class="sub-list">
+         <li><a target="_blank" href="http://blog.ricequant.com/">博客</a></li>
+         <li><span>微博</span></li>
+        </ul></li>
+      </ul>
+     </div>
+     <div class="row bottom-logo-wrapper">
+      <img src="./RiceQuant - Beta _ RiceQuant量化平台_files/logo.eafb1e33c8652daa.png" height="60" width="225" alt="bottom logo" />
+      <p class="col-2 col-offset-5">&copy; 2015 RiceQuant - 粤ICP备15023309号</p>
+     </div>
+    </footer>
+   </section>
+  </main>
+  <footer class="row">
+   <div class="row">
+    <ul class="col-8 col-offset-2 col-hg-6 col-hg-offset-3">
+     <li class="col-3"><h4>关于RiceQuant</h4>
+      <ul class="sub-list">
+       <li><a href="https://www.ricequant.com/about">关于</a></li>
+       <li><a href="https://www.ricequant.com/jobs">招贤纳士</a></li>
+      </ul></li>
+     <li class="col-3"><h4>声明</h4>
+      <ul class="sub-list">
+       <li><span>用户条款</span></li>
+       <li><span>隐私</span></li>
+      </ul></li>
+     <li class="col-3"><h4>技术支持</h4>
+      <ul class="sub-list">
+       <li><span>常见问答</span></li>
+       <li><a href="https://www.ricequant.com/api">帮助 &amp; API 文档</a></li>
+       <li><a href="mailto:public@ricequant.com">联系我们</a></li>
+       <li><span>安全</span></li>
+      </ul></li>
+     <li class="col-3"><h4>关注我们</h4>
+      <ul class="sub-list">
+       <li><a target="_blank" href="http://blog.ricequant.com/">博客</a></li>
+       <li><span>微博</span></li>
+      </ul></li>
+    </ul>
+   </div>
+   <div class="row bottom-logo-wrapper">
+    <img src="./RiceQuant - Beta _ RiceQuant量化平台_files/logo.eafb1e33c8652daa.png" height="60" width="225" alt="bottom logo" />
+    <p class="col-2 col-offset-5">&copy; 2015 RiceQuant - 粤ICP备15023309号</p>
+   </div>
+  </footer>
+  <div id="js-update-browser" class="update-browser hidden">
+   <div class="update-browser-content">
+    <img src="./RiceQuant - Beta _ RiceQuant量化平台_files/form-mimi.deacddebb0f36b93.png" height="199" width="180" alt="008" />
+    <h4><span>Oops,</span> 浏览器警报!</h4>
+    <p>古人说，工欲善其事必先利其器。您目前使用的浏览器有点旧了。</p>
+    <p>为了给您营造更好的使用体验，我们建议您更换如下浏览器:</p>
+    <div class="update-icons">
+     <a href="http://www.google.com/chrome/" target="_blank"><i class="sp-icon sp-update-chrome"></i></a> 
+     <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><i class="sp-icon sp-update-ff"></i></a> 
+     <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank"><i class="sp-icon sp-update-ie"></i></a>
+    </div>
+    <a class="btn" href="http://browsehappy.com/" target="_blank">跟我去下载 &gt;</a>
+   </div>
+  </div>
+  <script src="./RiceQuant - Beta _ RiceQuant量化平台_files/hmjs"></script>
+  <script src="./RiceQuant - Beta _ RiceQuant量化平台_files/hmjs"></script>
+  <script src="./RiceQuant - Beta _ RiceQuant量化平台_files/hmjs"></script>
+  <script>window._feed={403:{css:["/assets/css/403.3b328e7ba708eeb6.css"]},404:{css:["/assets/css/404.c1e8e54349c4d8ac.css"],js:["/assets/js/modules/404.98a6db3cd9c0a228.js"]},about:{css:["/assets/css/about.026aa1848d3d735f.css"],js:["/assets/js/modules/about.fe5ff4e1a0d43bf2.js"]},account:{css:["/assets/css/account.5ffb8057bafc9a91.css","/assets/lib/jcrop/jcrop.98d40e3ac1444fa8.css"],js:["/assets/js/modules/account.ab4fa3c2fe03a6d0.js","/assets/lib/jcrop/jcrop.57bf618af1ef3c6c.js","/assets/lib/html2canvas/html2canvas.196a7b54d152114b.js"]},algorithm:{css:["/assets/css/algorithm.907edf7374c7e1c3.css","/assets/lib/datepicker/datepicker.3042bae41101a7b1.css"],js:["/assets/js/modules/algorithm.e9053acb40ccc788.js"]},algorithms:{css:["/assets/css/algorithms.dc9e2c249132d16b.css"],js:["/assets/js/modules/algorithms.68acfad13e968c15.js"]},api:{css:["/assets/lib/markdown/markdown.c6f02888533aa1e6.css","/assets/lib/highlight/ricequant.5602044adc425b3b.css","/assets/css/api.55b500edc20e94f5.css"],js:["/assets/js/modules/api.f2f1c6f40ec9e1a3.js"]},demo:{css:["/assets/css/demo.6f8ce2d2fbd93a30.css"],js:["/assets/js/modules/demo.78daeff61c1ab560.js"]},index:{css:["/assets/css/index.114d241f4093fe38.css"],js:["/assets/js/modules/index.2bffd3f461e8103f.js"]},jobs:{css:["/assets/css/jobs.a0248fde97885012.css"],js:["/assets/js/modules/jobs.8e89622de546badc.js"]},login:{css:["/assets/css/login.2f1607773e2cc9bc.css"],js:["/assets/js/modules/login.062cd70a3e23d5fa.js"]},new_password:{css:["/assets/css/new_password.5668215abe1472b9.css"],js:["/assets/js/modules/new_password.006b8cd188c15d27.js"]},register:{css:["/assets/css/register.7e4672a021a509d4.css"],js:["/assets/js/modules/register.6d3d5233234da70a.js"]},register_result:{css:["/assets/css/register_result.8e7e123c54bc201c.css"],js:["/assets/js/modules/register_result.c4fb5ad2f77806df.js"]},resend_email:{css:["/assets/css/resend_email.e600a44fb4386ae7.css"],js:["/assets/js/modules/resend_email.0dda3231855b7b03.js"]},reset_password:{css:["/assets/css/reset_password.9e0855c5609a6232.css"],js:["/assets/js/modules/reset_password.e9256c8a9c3c7eb2.js"]},run:{css:["/assets/css/run.c5ddae4ac69b585a.css"],js:["/assets/js/modules/run.0c727d87a0422fa0.js"]},team:{css:["/assets/css/team.e110bd75f6fdbb9c.css"],js:["/assets/js/modules/team.7875cdb760d9a38b.js"]}};</script>
+  <script src="./RiceQuant - Beta _ RiceQuant量化平台_files/frame.5a1862a3d79caa8c.js"></script>
+  <script>if(window._userEmail="",window.WebSocket){var script=document.createElement("script");script.src="https://static.ricequant.com/assets/js/router.ac9cbe5cd6f188f5.js",document.body.appendChild(script)}else document.getElementById("js-update-browser").style.display="block";</script>
+  <script src="./RiceQuant - Beta _ RiceQuant量化平台_files/router.ac9cbe5cd6f188f5.js"></script>
+  <script id="js-template-user-login" type="text/template"><div class="js-login-box login-box fr"><a href="/login" class="login-btn"><i class="rqicon">&#xe606;</i>登录</a> <a href="javascript:void(0)" class="js-tooltip-trigger-register register-btn rqicon">&#xe619;</a></div></script>
+  <script id="js-template-user-profile" type="text/template"><div class="fr">
+            <a href="/account" class="js-user-avatar user-avatar"><img src="%%avatar%%" height="40" width="40" alt="avatar"></a>
+        </div></script>
+  <script id="js-tooltip-register-box" type="text/template"><div class="tooltip-register-box">
+            <p>尝试不同的交易体验</p><a class="js-tooltip-close" href="/register">加入我们</a>
+        </div></script>
+  <script id="js-tooltip-user-menu" type="text/template"><ul class="tooltip-user-menu">
+            <li><a href="/account">%%userEmail%%</a></li>
+            <li><a class="js-logout" href="javascript:void(0)">登出</a></li>
+        </ul></script>
+  <div class="js-tooltip tooltip">
+   <div class="js-tooltip-content"></div>
+   <i class="tooltip-arrow"></i>
+   <i class="tooltip-arrow tooltip-arrow-mask"></i>
+  </div>
+ </body>
+</html>
